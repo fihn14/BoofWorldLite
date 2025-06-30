@@ -17,6 +17,8 @@ html, body {
   letter-spacing: 0.1rem;
   margin: 0;
   padding: 0;
+  background: black; /*fallback for mobile*/
+  overflow-x: hidden;
 }
 
 body {
