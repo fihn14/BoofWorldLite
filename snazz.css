@@ -21,7 +21,7 @@ html, body {
 
 body {
   line-height: 1.2rem;
-  min-height: 100vh;
+  min-height: 100dvh;
   color: #aaaaaa;
   background: linear-gradient(to top, #131111 50%, #210236 180%);
   background-repeat: no-repeat;
@@ -32,9 +32,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 p {
   text-align: left;
 }
+
 main {
   display: flex;
   flex-direction: column;
