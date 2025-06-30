@@ -14,13 +14,12 @@
     <title>Post 1: Website is finally done.</title>
     <link href="https://boofener.based.pt/blog/post1.html"/>
     <id>https://boofener.based.pt/blog/post1.html</id>
-    <updated>2025-06-30T00:00:00Z
-</updated>
+    <updated>2025-06-30T00:00:00Z</updated>
     <content type="html">
       <![CDATA[
 
 <h1>This took longer than it needed to</h1>
-
+        <p>
           I don't read blogs and I certainly do NOT write so if this is fucked up then cry about it. <br>
           Making this website was extremely easy especially considering it is only css and html, however it was pretty fucking obnoxious.<br>
           So to begin, css is literally all testing. If it doesn't look good, change your code, save it, and refresh the page being hosted.<br>
