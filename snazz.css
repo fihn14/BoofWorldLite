@@ -1,0 +1,91 @@
+:root {
+  --font: 'Inter', sans-serif;
+  --font-size: 16px;
+  --max-width: 700px;
+  --padding: 2rem;
+  --border-radius: 8px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+body {
+  display: flex;
+  font-family: monospace;
+  font-size: 12pt;
+  line-height: 1.4rem;
+  flex-direction: column;
+  justify-content: center; 
+  min-height: 100vh;
+  align-items: center;    
+  background: linear-gradient(to top, #131111 50%, #210236 180%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  /* Keep text readable you fucking idot */
+  font-family: 'Inter', sans-serif;
+  color: #aaaaaa;
+}
+
+
+.box {
+  border: 1px solid white;
+  margin-block: 10rem; /*spacing between boxes dumbass*/
+  margin-inline: auto;
+  padding: .8rem;
+  border-radius: 8px;
+  color: white;
+  box-sizing: border-box;
+  max-width: 700px;
+  width: fit-content;
+  text-align: center;
+}
+
+main {
+  max-width: var(--max-width);
+  width: 100%;
+  flex: 1; /*Forces footer into submissive position :3*/
+  text-align: center;
+  padding: 2rem;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8300fd;
+  text-decoration: underline;
+}
+
+
+footer {
+  padding: 1rem;
+  text-align: center;
+  opacity: 0.7;
+  text-align: center;
+  cursor: pointer;
+}
+
+nav a {
+  margin: 0 0.75rem;
+}
+
+
+
+
+
